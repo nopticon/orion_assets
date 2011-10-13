@@ -1,0 +1,24 @@
+<ASX version="3.0" BANNERBAR="AUTO">
+<ABSTRACT>Radio Rock Republik</ABSTRACT>
+<TITLE>Rock Republik Radio</TITLE>
+<AUTHOR>http://live.rockrepublik.net</AUTHOR>
+<COPYRIGHT>2004-2007</COPYRIGHT>
+<LOGO href = "http://www.rockrepublik.net/home/radio/promote/live.jpg" Style = "BANNER" />
+<MOREINFO href="http://www.rockrepublik.net" />
+<REPEAT>
+<ENTRY>
+  <ABSTRACT>Radio Rock Republik</ABSTRACT>
+  <TITLE>Rock Republik Radio</TITLE>
+  <LOGO href = "http://www.rockrepublik.net/home/radio/promote/live.jpg" Style = "BANNER" />
+  <PARAM NAME="HTMLView" VALUE="http://www.rockrepublik.net"/>
+  <REF HREF="http://live.rockrepublik.net" />
+  <PARAM NAME="Location" VALUE="Guatemala" />
+  <PARAM NAME="Genre" VALUE="Rock & Metal" />
+  <PARAM NAME="Type" VALUE ="broadcast" />
+  <PARAM NAME="Homepage" VALUE="http://radio.rockrepublik.net" />
+  <AUTHOR>http://live.rockrepublik.net</AUTHOR>
+  <COPYRIGHT>2004-2007</COPYRIGHT>
+  <MOREINFO HREF="http://www.rockrepublik.net" />
+</ENTRY>
+</REPEAT>
+</ASX>

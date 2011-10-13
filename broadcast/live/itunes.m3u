@@ -1,0 +1,9 @@
+Content-Type: audio/mpegurl;
+	name="radio_rockrepublik_itunes.m3u"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename="radio_rockrepublik_itunes.m3u"
+
+#EXTM3U
+#EXTINF:-1,Nostalgie FM
+http://live.rockrepublik.net/
