@@ -2,7 +2,7 @@
 
 //$_REQUEST['filename'] = $filename;
 
-define('ROOT', './../../orion/');
+define('ROOT', './../../../dev.rockrepublik/www/orion/');
 
 $extension = strtolower($_REQUEST['extension']);
 
