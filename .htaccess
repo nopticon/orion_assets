@@ -5,15 +5,6 @@ RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
 RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
 RewriteRule ^.*$ - [R=404,L]
 
-RewriteRule ^$ http://www.orion.com/ [R=302]
+RewriteRule ^$ http://www.rockrepublik.net/ [R=302]
 RewriteRule ^([a-z0-9]+)(\-.*?)?\.(js)$ rz/external.php?filename=$1&extension=$3 [nc]
 RewriteRule ^([a-z0-9]+)(\-.*?)?\.(css)$ rz/external.php?filename=$1&extension=$3 [nc]
-
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType image/gif "access plus 1 month"
-ExpiresByType image/jpeg "access plus 1 month"
-ExpiresByType image/png "access plus 1 month"
-
-FileETag MTime Size
-</IfModule>

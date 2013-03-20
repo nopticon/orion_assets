@@ -1,7 +1,5 @@
 <?php
 
-//$_REQUEST['filename'] = $filename;
-
 define('ROOT', './../../../../dev.rockrepublik/www/orion/');
 
 $extension = strtolower($_REQUEST['extension']);
@@ -16,5 +14,3 @@ switch ($extension) {
 }
 
 require_once($filepath);
-
-?>
